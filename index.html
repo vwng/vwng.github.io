@@ -5,11 +5,11 @@
 <title>AVA WANG</title>
 <style>
 	body {
-	background-color: blue;	
+	background-color: pink;	
 		}
 	h1 {
     font-size: 50px;
-	color: pink;
+	color: #2A50FF;
 	font-family: 'Helvetica Neue', Helvetica, Gotham, Arial, 'sans-serif';
 	font-weight: normal;
 	letter-spacing: none;
@@ -17,7 +17,7 @@
 }
 	p {
     font-size: 11px;
-	color: white;
+	color: #2A50FF;
 	font-family: 'Helvetica Neue', Helvetica, Gotham, Arial, 'sans-serif';
 	font-weight: normal;
 	letter-spacing: none;
@@ -25,7 +25,7 @@
 }
 	a:link {
 	font-size: 11px;
-	color: pink;
+	color: #2A50FF;
 	text-decoration: none; 
 	font-weight: normal;
 	font-family: "Helvetica Neue", Helvetica, Gotham, Arial, "sans-serif";
@@ -33,15 +33,15 @@
 	}
 			
 	a:visited {
-	color: pink;
+	color: #2A50FF;
 		}
 	a:hover {
-    background-color: pink;
+    background-color: #2A50FF;
 		}
-	div.container{
+	div#container{
 		width:800px;
 		margin: 0px auto;
-		background: white;
+		background: none;
 		padding: 0px;
 	}
 	div#content{
@@ -71,29 +71,40 @@
 		float: left;
 		padding: 10px;
 		background: none;
-		margin-top: -10px;
+		margin-top: -40px;
+	}
+	div#footer{
+		width: 780px;
+		padding: 10px;
+		background: none;
+		position:absolute;
+		top:800px;
+		text-align: center;
 	}
 </style>
 </head>
 
 <body>
-	<div id="content">
-		<div id="header">
-		<a href="index.html">AVA WANG</a></div>
-	<div id="nav">
-		<a href="illustration.html">DESIGN</a>
-	<br><a href="illustration.html">ILLUST</a>
-	<br><a href="illustration.html">ANIM</a>
+	<div id="container">
+		<div id="content">
+			<div id="header">
+				<a href="index.html"><h1>AVA WANG</h1></a>
+			</div>
+			<div id="nav">
+				<a href="illustration.html">DESIGN</a>
+			<br><a href="illustration.html">ILLUST</a>
+			</div>
+
+			<div id="maincontent">
+				<h1>PRATT INSTITUTE '19 COMMUNICATIONS DESIGN BFA</h1>
+				<p>
+				CONTACT<br>
+					avaw731@gmail.com | IG @vwng</p>
+			</div>
 		</div>
-		
-	<div id="maincontent">
-		<p>PRATT INSTITUTE BFA '19 COMMUNICATIONS DESIGN</p>
-		<p>
-		CONTACT<br>
-			avaw731@gmail.com | IG @vwng
-		</p>
-		</div>
+		<div id="footer">
+				<p>© AVA WANG 2018</p>
+			</div>
 	</div>
-	
 </body>
 </html>
