@@ -15,12 +15,20 @@
 	letter-spacing: none;
 	line-height: 40px;
 }
-	p {
+	p#body {
     font-size: 11px;
 	color: #2A50FF;
 	font-family: "lucida console", "courier new", monospace;
 	font-weight: normal;
 	letter-spacing: none;
+	line-height: 20px;
+}
+	p#footer {
+    font-size: 9px;
+	color: #2A50FF;
+	font-family: 'Helvetica Neue', Helvetica, Gotham, Arial, 'sans-serif';
+	font-weight: normal;
+	letter-spacing: 0px;
 	line-height: 20px;
 }
 	a:link {
@@ -71,11 +79,13 @@
 	}
 	div#footer{
 		width: 780px;
-		padding: 10px;
+		padding: 0px;
 		background: none;
 		position:absolute;
 		top:600px;
 		text-align: left;
+		border-top: 2px solid;
+		border-top-color:#2A50FF;
 	}
 </style>
 </head>
@@ -93,13 +103,13 @@
 
 			<div id="maincontent">
 				<h1>PRATT INSTITUTE '19 COMMUNICATIONS DESIGN, BFA</h1>
-				<p>
+				<p id="body">
 				CONTACT<br>
 					avaw731@gmail.com</p>
 			</div>
 		</div>
 		<div id="footer">
-				<p>© AVA WANG 2018</p>
+				<p id="footer">© AVA WANG 2018</p>
 			</div>
 	</div>
 </body>
