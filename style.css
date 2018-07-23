@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+	h1 {
+    font-size: 50px;
+	color: #2A50FF;
+	font-family: 'Helvetica Neue', Helvetica, Gotham, Arial, 'sans-serif';
+	font-weight: normal;
+	letter-spacing: none;
+	line-height: 40px;
+}
+	p#main {
+    font-size: 11px;
+	color: #2A50FF;
+	font-family: "lucida console", "courier new", monospace;
+	font-weight: normal;
+	letter-spacing: none;
+	line-height: 20px;
+}
+	p#cred {
+    font-size: 9px;
+	color: #2A50FF;
+	font-family: 'Helvetica Neue', Helvetica, Gotham, Arial, 'sans-serif';
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 20px;
+}
+	a:link {
+	font-size: 11px;
+	color: #2A50FF;
+	text-decoration: none; 
+	font-weight: normal;
+	font-family: "lucida console", "courier new", monospace;
+	letter-spacing: none;
+	cursor: crosshair;
+	}
+			
+	a:visited {
+	color: #2A50FF;
+		}
+	a:hover {
+    background-color: #2A50FF;
+		}
+	div#container{
+		width:1000px;
+		margin: 0px auto;
+		background: none;
+		padding: 0px;
+	}
+	div#content{
+		width: 1000px;
+		height: 400px;
+		padding-top: 150px;
+		background: none;
+	}
+	div#header{
+		width: 1000px;
+		height: 100px;
+		position:absolute;
+		top:0px;
+		background: none;
+	}
+	div#nav{
+		width: 80px;
+		float: right;
+		padding-left:120px;
+		padding-top:30px;
+		background: none;
+	}
+	div#maincontent1{
+		width: 600px;
+		float: left;
+		padding: 0px;
+		background: none;
+	}
+	div#maincontent2{
+		width: 1000px;
+		float: left;
+		padding-top: 0px;
+		background: none;
+	}
+
+	div#itemleft{
+		position: relative;
+		float:left;
+		width: 400px;
+		height: 250px;
+		padding: 0px;
+		background: blue;
+}
+	div#itemright{
+		position: relative;
+		float:right;
+		width: 400px;
+		height: 250px;
+		padding: 0px;
+		background: none;
+}
+	div#footer{
+		width: 1000px;
+		padding: 0px;
+		background: none;
+		position:relative;
+		text-align: left;
+	}
+	#untitled{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+		margin-top:-4px;
+}
