@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#container {
+position: relative;
+width: 600px;
+height: auto;
+margin: 0px auto;
+background: none;
+padding: 0px;
+}
+div#content {
+position: absolute;
+top: 50px; left: 50%;
+transform: translate(-50%,0%);
+width: 600px;
+height: auto;
+background: none;
+}
+div#icon1 {
+width: 200px;
+height: 200px;
+background: none;
+float:left;
+text-align: center;
+}
+div#icon2 {
+width: 200px;
+height: 200px;
+background: none;
+float:left;
+text-align: center;
+}
+div#icon3 {
+width: 200px;
+height: 200px;
+background: none;
+float:left;
+text-align: center;
+}
+div#about{
+margin: 20px;
+margin-top: 225px;
+background:none;
+width:600px;
+height: 200px;
+
+}
+div#aboutsub1{
+	font-size:20px;
+	letter-spacing:1px;
+	float:left;
+	margin-top:70px;
+	margin-left:150px;
+}
+div#aboutsub2{
+	float:left;
+	margin-top:120px;
+	margin-left:40px;
+	font-color:white;
+}
+	img.leftcol{
+		float:left;
+		width:295px;
+		margin-bottom:10px;
+}
+	img.rightcol{
+		float:right;
+		width:295px;
+		margin-bottom:10px;
+}
+
+/* FONT STYLES */ 
+
+		h1{
+			font-size: 40px;
+			color:white;
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		p#main{
+			font-size: 15px;
+			color:white;
+			letter-spacing: 1px;
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+
+		a{
+			color:white;
+			font-weight:none;
+			font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			text-decoration:none;
+}
+		a:hover{
+			color:blue;
+			background:blue;
+			
+	}
+		a:visited {
+			color:white;
+			}
+		a.img:hover{
+			background:none;
+			cursor:crosshair;
+}
+	
