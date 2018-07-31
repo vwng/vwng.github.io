@@ -84,33 +84,24 @@ div#header{
 }
 
 div#titlebar{
-	margin: 0px auto;
-	width:100%;
-	background: none;
-	text-align:center;
-	display:none;
+	position:fixed;
+	background:white;
+	border:1px solid;
+	padding:5px;
+	margin-top:-6px;
+	left: 50%;                        
+   	transform: translate(-50%,0);
+	display: none;
 }
 
 div#name{
 	float:left;
 	background:none;
-	height:75px;
 }
 div#nav{
 	float:right;
 	background:none;
-	height:75px;
 	letter-spacing:0px;
-}
-
-div#title{
-	text-align:center;
-	background:none;
-}
-#titlecontent{
-	width:100%;
-	background-color: red;
-	display:none;
 }
 
 div#maincontent2{

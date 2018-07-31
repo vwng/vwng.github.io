@@ -8,7 +8,7 @@ $('#maincontent').mouseout(function(){
 });
 	 
 $('#name').mouseover(function(){
-	$('#titlebar').text("NAMEEE");
+	$('#titlebar').text("it me.");
     $('#titlebar').show();
 });
 	 
@@ -59,5 +59,51 @@ $('#frenzy').mouseover(function(){
 	 
 $('#frenzy').mouseout(function(){
     $('#titlebar').hide();
+});
 		
-});// JavaScript Document
+		
+$('#frenzy').mouseover(function(){
+	$('#titlebar').text("Feeding Frenzy");
+    $('#titlebar').show();
+});
+	 
+$('#frenzy').mouseout(function(){
+    $('#titlebar').hide();		
+});
+	
+$('#untitled').mouseover(function(){
+	$('#titlebar').text("untitled");
+    $('#titlebar').show();
+});
+	 
+$('#untitled').mouseout(function(){
+    $('#titlebar').hide();		
+});
+	
+$('#redux').mouseover(function(){
+	$('#titlebar').text("Reduction");
+    $('#titlebar').show();
+});
+	 
+$('#redux').mouseout(function(){
+    $('#titlebar').hide();		
+});
+	
+$('#giraffe').mouseover(function(){
+	$('#titlebar').text("Scuba?");
+    $('#titlebar').show();
+});
+	 
+$('#giraffe').mouseout(function(){
+    $('#titlebar').hide();		
+});
+	
+$('#neighbors').mouseover(function(){
+	$('#titlebar').text("Neighbors");
+    $('#titlebar').show();
+});
+	 
+$('#neighbors').mouseout(function(){
+    $('#titlebar').hide();		
+});
+	
