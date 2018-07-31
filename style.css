@@ -2,11 +2,20 @@
 /* CSS Document */
 body{
 	font-family: "Helvetica Neue", Helvetica, "sans-serif";
-	
 }
 
 h1{
 	font-size:50px;
+	font-family: "Helvetica Neue", Helvetica, "sans-serif";
+}
+p{
+	border: 0px outset;
+	padding:10px;
+	font-size:12px;
+	letter-spacing: 1px;
+}
+a:hover{
+	cursor:crosshair;
 }
 a#logo{
 	color:black;
@@ -54,14 +63,16 @@ div#container{
 	margin-top: 20px;
 	width: 100vw;
 	height: 100vh;
-	max-width: 100%
+	max-width: 100%;
+		
 }
 div#content{
 	width:80%;
 	height:auto px;
 	margin: 0px auto;
-	background:none;
+	background:white;
 	overflow:hidden;
+	border:0px outset;
 }
 
 div#header{
@@ -70,8 +81,16 @@ div#header{
 	background:none;
 	font-size:14px;
 	letter-spacing:1px;
-	
 }
+
+div#titlebar{
+	margin: 0px auto;
+	width:100%;
+	background: none;
+	text-align:center;
+	display:none;
+}
+
 div#name{
 	float:left;
 	background:none;
@@ -83,6 +102,26 @@ div#nav{
 	height:75px;
 	letter-spacing:0px;
 }
+
+div#title{
+	text-align:center;
+	background:none;
+}
+#titlecontent{
+	width:100%;
+	background-color: red;
+	display:none;
+}
+
+div#maincontent2{
+	width:100%;
+	  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
 div#maincontent{
 	width:100%;
 	background:none;
@@ -132,8 +171,10 @@ div#workcolleft{
 	background:none;
 	width:50%;
 	float:left;
-	text-align:center;
-	
+	text-align:center;	
+}
+div#workcolleft:hover{
+		border: 0px solid red;
 }
 div#workcolright{
 	background:none;
@@ -143,6 +184,8 @@ div#workcolright{
 }
 
 img.illust{
-	width:70%;
+	width: 70%;
 	margin-bottom: 10%;
+	margin-top:10%
 }
+
